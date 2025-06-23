@@ -1,0 +1,62 @@
+real-estate-website/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── assets/
+│       ├── images/
+│       │   ├── logo-placeholder.png
+│       │   ├── hero-bg.jpg
+│       │   ├── company1.png
+│       │   ├── company2.png
+│       │   ├── company3.png
+│       │   ├── company4.png
+│       │   ├── loc1-bg.jpg
+│       │   ├── loc1-map.png
+│       │   ├── loc2-bg.jpg
+│       │   ├── loc2-map.png
+│       │   ├── loc3-bg.jpg
+│       │   ├── loc3-map.png
+│       │   ├── loc4-bg.jpg
+│       │   ├── loc4-map.png
+│       │   └── footer-bg.jpg
+│       └── animations/
+│           └── nerdy-character.json
+├── src/
+│   ├── index.js
+│   ├── App.js
+│   ├── App.css
+│   ├── components/
+│   │   ├── Navigation/
+│   │   │   ├── Navigation.js
+│   │   │   └── Navigation.css
+│   │   ├── Hero/
+│   │   │   ├── Hero.js
+│   │   │   └── Hero.css
+│   │   ├── Companies/
+│   │   │   ├── Companies.js
+│   │   │   └── Companies.css
+│   │   ├── LocationGrid/
+│   │   │   ├── LocationGrid.js
+│   │   │   ├── LocationCard.js
+│   │   │   └── LocationGrid.css
+│   │   ├── Awards/
+│   │   │   ├── Awards.js
+│   │   │   └── Awards.css
+│   │   ├── Contact/
+│   │   │   ├── Contact.js
+│   │   │   └── Contact.css
+│   │   └── Footer/
+│   │       ├── Footer.js
+│   │       └── Footer.css
+│   ├── utils/
+│   │   ├── privacy.js
+│   │   └── animations.js
+│   ├── data/
+│   │   └── siteData.js
+│   └── hooks/
+│       └── useScrollAnimation.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── README.md
+└── .env
