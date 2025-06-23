@@ -1,0 +1,84 @@
+
+CODE = """<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Commercial Real Estate - 8+ Years of Excellence</title>
+    
+    <!-- Privacy & Security Meta Tags -->
+    <meta name="robots" content="noindex, noimageindex" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Disable right-click -->
+    <script>
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        return false;
+      });
+      
+      // Disable image dragging
+      document.addEventListener('dragstart', function(e) {
+        if (e.target.tagName === 'IMG') {
+          e.preventDefault();
+          return false;
+        }
+      });
+      
+      // Disable text selection on images
+      document.addEventListener('selectstart', function(e) {
+        if (e.target.tagName === 'IMG') {
+          e.preventDefault();
+          return false;
+        }
+      });
+    </script>
+    
+    <style>
+      /* Disable image selection and dragging */
+      img {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        pointer-events: none;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+  </head>
+  <body oncontextmenu="return false">
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>"""
+create_file("/home/user/real-estate-website/index.html", CODE)
